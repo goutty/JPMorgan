@@ -39,7 +39,6 @@ public class ReportUtil {
 		return stringBuilder.toString();
 	}
 
-	
 	public static String printDetailedSalesAdjustmentReport(List<Product> products) {
 		StringBuilder stringBuilder = new StringBuilder();
 		Formatter fmt = new Formatter(stringBuilder);
@@ -59,6 +58,5 @@ public class ReportUtil {
 			fmt.close();
 		}
 		return stringBuilder.toString();
-
 	}
 }
